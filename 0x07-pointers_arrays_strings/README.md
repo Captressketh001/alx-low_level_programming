@@ -1,0 +1,6 @@
+- task 0: a function that copies memory area.
+- task 1: a function that locates a character in a string
+- task 2: a function that gets the length of a prefix substring
+- task 3: a function that searches a string for any of a set of bytes
+- task 4: a function that locates a substring.
+- task 5: 
