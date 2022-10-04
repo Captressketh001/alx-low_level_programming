@@ -1,2 +1,3 @@
 - File libmy.a is a static library
 - File main.h contains the prototype fot the functions in the libmy.a library
+- File create_static_library is a script that create static library
