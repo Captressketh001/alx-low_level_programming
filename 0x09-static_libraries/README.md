@@ -1,0 +1,2 @@
+- File libmy.a is a static library
+- File main.h contains the prototype fot the functions in the libmy.a library
