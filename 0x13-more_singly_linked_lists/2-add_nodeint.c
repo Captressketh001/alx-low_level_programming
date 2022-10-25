@@ -5,12 +5,13 @@
  * @head: double pointer to the list_int list
  * @n: new node to be added
  *
+ * Return: the address of the added element
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	list_t *add;
 
-	add = malloc(sizeof(size_t));
+	add = malloc(sizeof(listint_t));
 
 	if (!add)
 		return (NULL);
