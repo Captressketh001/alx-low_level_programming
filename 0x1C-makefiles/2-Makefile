@@ -1,15 +1,12 @@
-CC := gcc
-SRC := school.c main.c
-OBJ := $(SRC:%.c=%.o)
-NAME := school
+CC = gcc
+SRC = school.c main.c
+OBJ = $(SRC:%.c=%.o)
+NAME = school
 
 all: $(NAME)
 
 $(NAME): m.h $(OBJ)
-	$(CC) -o $@ $^
-
-%.o: %.c
-	$(CC) -c $<
+	$(CC) $(OBJ) -o $(NAME)
 
 clean:
 	rm -f $(OBJ) $(NAME)
